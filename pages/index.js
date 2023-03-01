@@ -1,8 +1,10 @@
-export default function HomePage() {
+import Link from '../src/components/Link/index'
+
+export default function PageHome() {
   return (
     <div>
       <h1>Cachei Formula Web</h1>
-      <a href="/faq">I para o FAQ</a>
+      <Link href='/faq'>Ir para a pagina do FAQ</Link>
     </div>
   )
 }
